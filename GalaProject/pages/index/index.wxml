@@ -7,7 +7,8 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <view class="musicLogo">
+    <image class="kLogo"
+    src="/image/karaoke.png" bindtap='Timeline'> </image>
   </view>
 </view>

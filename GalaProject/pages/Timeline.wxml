@@ -1,0 +1,179 @@
+<!--pages/Timeline.wxml-->
+<view class='g_con'>
+
+  <view class='topExpress'>
+
+    <view class='topExpress-left'>
+      <image src='/image/karaoke.png' style='width:60rpx;height:60rpx;border-radius:50%;'></image>
+    </view>
+    <view class='topExpress-right'>
+      <view class='topExpress-right-top'>音乐节</view>
+      <view class='topExpress-right-middle'>时间: 20:39</view>
+      <view class='topExpress-right-bottom'>>>ADA出品</view>
+    </view>
+
+  </view>
+
+  <!-- 音乐节时间轴 -->
+  <view class='expressRecord'>
+
+
+    <!-- 曲目信息 -->
+    <view class='expressRecord-getAddress'>
+      <view class='expressRecord-top'>
+        <view class='getAddress-icon'>
+          歌
+        </view>
+        <view class='getAddress-text'>[Suki] 体面-原唱:于文文 </view>
+      </view>
+    </view>
+
+    <!-- 顶部半个时间轴线 -->
+    <view class='noReach-online-top-close'></view>
+
+
+    <!-- 单个记录点时间轴：当前正在演出曲目 -->
+    <view class='expressRecord-single-close'>
+
+      <!-- 左边子容器 -->
+      <view class='expressRecord-single-noReach-online-top-close'>
+        <!-- 正在进行的时间轴上半个时间线 -->
+        <view class='online-top-closing'></view>
+        <!-- 正在进行的时间轴点 -->
+        <view class='dot-closing'></view>
+        <!-- 正在进行的时间轴下半个时间线 -->
+        <view class='online-bottom'></view>
+      </view>
+
+      <!-- 右边子容器 -->
+      <view class='expressRecord-text'>
+        <view class='expressRecord-statusing'>演出中</view>
+        <view class='expressRecord-status-addressing'>Suki颖 - 体面</view>
+      </view>
+
+      <!-- 相对父级容器绝对定位的日期 -->
+      <view class='expressRecord-dating'>
+        <view class='expressRecord-date-text'>
+          今天
+        </view>
+        <view class='expressRecord-date-time'>
+          20:39
+        </view>
+      </view>
+    </view>
+
+
+    <!-- 单个记录点时间轴 -->
+    <view class='expressRecord-single-close'>
+      <view class='expressRecord-single-noReach-online-top-close'>
+        <view class='online-top-close'></view>
+        <view class='dot-close'></view>
+        <view class='online-bottom'></view>
+      </view>
+
+      <view class='expressRecord-text'>
+      <view class='expressRecord-status'>即将演出</view>
+        <view class='expressRecord-status'></view>
+        <view class='expressRecord-status-address'>Jin - 天后</view>
+      </view>
+
+      <view class='expressRecord-date'>
+        <view class='expressRecord-date-text'>
+          今天
+        </view>
+        <view class='expressRecord-date-time'>
+          20:50
+        </view>
+      </view>
+    </view>
+
+
+
+
+    <view class='expressRecord-single-close'>
+      <view class='expressRecord-single-noReach-online-top-close'>
+        <view class='online-top-close'></view>
+        <view class='dot-close'></view>
+        <view class='online-bottom'></view>
+      </view>
+
+      <view class='expressRecord-text'>
+        <view class='expressRecord-status'></view>
+        <view class='expressRecord-status'>等待演出</view>
+        <view class='expressRecord-status-address'>Suki颖 - 一个人想着一个人</view>
+      </view>
+
+      <view class='expressRecord-date'>
+        <view class='expressRecord-date-text'>
+          今天
+        </view>
+        <view class='expressRecord-date-time'>
+          21:00
+        </view>
+      </view>
+    </view>
+
+
+
+
+    <view class='expressRecord-single-close'>
+      <view class='expressRecord-single-noReach-online-top-close'>
+        <view class='online-top-close'></view>
+        <view class='dot-close'></view>
+        <view class='online-bottom'></view>
+      </view>
+
+      <view class='expressRecord-text'>
+        <view class='expressRecord-status'>等待演出</view>
+        <view class='expressRecord-status-address'>Jin - 浮夸</view>
+      </view>
+
+      <view class='expressRecord-date'>
+        <view class='expressRecord-date-text'>
+          今天
+        </view>
+        <view class='expressRecord-date-time'>
+          21:10
+        </view>
+      </view>
+    </view>
+
+
+
+
+
+    <view class='expressRecord-single-close'>
+      <view class='expressRecord-single-noReach-online-top-close'>
+        <view class='online-top-close'></view>
+        <view class='dot-close'></view>
+        <!-- 起始位置，下半个时间轴线不用 -->
+        <view class='online-bottom-start'></view>
+      </view>
+
+      <view class='expressRecord-text'>
+        <view class='expressRecord-status'>等待演出</view>
+        <view class='expressRecord-status-address'>Ada - 123我爱你</view>
+      </view>
+
+      <view class='expressRecord-date'>
+        <view class='expressRecord-date-text'>
+          今天
+        </view>
+        <view class='expressRecord-date-time'>
+          21:20
+        </view>
+      </view>
+    </view>
+
+
+
+
+
+
+
+
+  </view>
+
+
+
+</view>
